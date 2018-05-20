@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ACTIVITIES.Home"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:background="@drawable/trand"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="3dp"
+            android:id="@+id/home_cv1"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/shose"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shoes"
+                    android:textSize="30dp"
+                    android:textColor="#fff"
+                    android:id="@+id/home_tv1"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#fff"
+            app:cardCornerRadius="3dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/home_cv2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/baby"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Baby"
+                    android:textSize="30dp"
+                    android:textColor="#000"
+                    android:id="@+id/home_tv2"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#000"
+            app:cardCornerRadius="3dp"
+            android:id="@+id/home_cv3"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/socks"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sockes"
+                    android:textSize="30dp"
+                    android:textColor="#fff"
+                    android:id="@+id/home_tv3"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="@color/colorPrimaryDark"
+            app:cardCornerRadius="3dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/home_cv4"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/clothes"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clothes"
+                    android:textSize="30dp"
+                    android:textColor="#fff"
+                    android:id="@+id/home_tv4"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</LinearLayout>
